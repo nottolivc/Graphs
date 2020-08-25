@@ -4,7 +4,7 @@ class Graph:
 
     def add_vertex(self, vertex_id):
         if vertex_id not in self.vertices:
-            self.vertices[vertex_id] = set() # because sets are faster and they are hashtables underneath the hood 
+            self.vertices[vertex_id] = set() # sets are faster and they are hashtables 
 
     def add_edge(self, v1, v2):
         if v1 in self.vertices:
